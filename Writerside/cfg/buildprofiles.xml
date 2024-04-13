@@ -1,25 +1,13 @@
 <buildprofiles xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd"
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <variables>
-<!--        <primary-color>aqua</primary-color>-->
-        <custom-favicons>https://www.jetbrains.com/icon.svg</custom-favicons>
-<!--        <header-logo>my-logo.png</header-logo>-->
-        <product-web-url>https://help.example.com</product-web-url>
+        <primary-color>iris</primary-color>
+        <download-title>揭发罪行</download-title>
+        <download-page>https://github.com/ChesterZhao/ZHS-Document</download-page>
+        <showDownloadButton>true</showDownloadButton>
     </variables>
     <build-profile instance="instance_id"/>
     <footer>
         <copyright>Chengxin Zhao 2024</copyright>
     </footer>
-    <build-profile instance="hi">
-        <variables>
-            <offline-docs>false</offline-docs>
-            <noindex-content>true</noindex-content>
-        </variables>
-    </build-profile>
-    <build-profile instance="zhs">
-        <variables>
-            <noindex-content>true</noindex-content>
-            <offline-docs>false</offline-docs>
-        </variables>
-    </build-profile>
 </buildprofiles>
